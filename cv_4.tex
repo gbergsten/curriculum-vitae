@@ -1,0 +1,304 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[dvipsnames]{xcolor}
+\usepackage{fmtcount}
+\usepackage[hidelinks]{hyperref}
+\usepackage{changepage}
+
+\usepackage{enumitem}
+\usepackage{etaremune} % reverse enumerate for paper numbering
+\setlist[itemize]{nosep,left=0pt}
+\setlist[enumerate]{nosep}
+\setlist[description]{nosep}
+
+\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry} % margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Galen Bergsten}
+\address{PhD Student $\mid$ \href{mailto:gbergsten@arizona.edu}{gbergsten@arizona.edu}}
+\address{Lunar and Planetary Laboratory, University of Arizona}
+
+%customize entries left, center and right
+
+
+%%%%%%%%%%%%%%%%% Other Stuff %%%%%%%%%%%%%%%%%%
+% \definecolor{PrettyPurple}{rgb}{0.35, 0, 0.35}
+% \definecolor{PrettyPurple}{rgb}{0.4375, 0.1875, 0.4375}
+\definecolor{PrettyPurple}{rgb}{0,0,0}
+%dark background color
+\definecolor{bgcol}{RGB}{110,110,110}
+%accent color
+\definecolor{sectcol}{RGB}{160, 131, 196}
+% \definecolor{sectcol}{RGB}{171, 122, 203}
+% \definecolor{sectcol}{RGB}{171, 132, 196}
+
+\newcommand{\mystrut}{\rule[-.3\baselineskip]{0pt}{\baselineskip}}
+
+\renewenvironment{rSection}[1]{\mystrut{\textcolor{black}{{\large{\textbf{#1}}}}}
+% \textcolor{PrettyPurple}{\MakeUppercase{#1}}
+\vspace{-5pt} %{\color{Black} \hrule height 2.5pt}
+\begin{list}{}{
+\setlength{\leftmargin}{0em}
+}
+\item[]
+}{
+\end{list}
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+\begin{document}
+\thispagestyle{empty}
+
+% \noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l rr}
+% PhD Student & \\
+% Lunar and Planetary Laboratory, University of Arizona &  \\
+% % 1629 E. University Blvd., Tucson, AZ 85719 \\
+% % \href{https://www.lpl.arizona.edu/~gbergsten/}{https://www.lpl.arizona.edu/$\sim$gbergsten/}
+% \end{tabular*}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\vspace{5pt}\hline
+\vspace{0pt}
+
+\begin{rSection}{Education}
+
+{\bf Lunar and Planetary Laboratory, University of Arizona} \hfill {Expected \em 2026} 
+\\ PhD in Planetary Sciences, Minor in Astrobiology (Thesis Advisor: Dr. Ilaria Pascucci) \hfill \vspace{-5pt}
+
+{\bf University of Utah} \hfill {\em 2020} 
+\\ Honors BS in Physics, Minors in Astronomy (Thesis Advisor: Dr. Gail Zasowski) \hfill
+\\ BS in Biology, Minor in Environmental \& Organismal Biology \hfill
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+\end{rSection}
+\vspace{5pt}\hline
+\vspace{0pt}
+
+% %----------------------------------------------------------------------------------------
+% %	TECHNICAL STRENGTHS SECTION
+% %----------------------------------------------------------------------------------------
+
+% \begin{rSection}{Data Analytics Skills }
+
+% \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+% Programming Languages &  Python, SQL, Bash, IDL, Fortran, C/C++, MATLAB \\
+% Python Packages & Pandas, Matplotlib, Numpy, Scipy, F2py, Psycopg2, \\
+%   &BeautifulSoup, Selenium, Spacepy, Davitpy, Jupyter \\
+% Software \& Tools & HTML, LaTeX, Excel, Mathematica \\
+% \end{tabular}
+
+% \end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Research \& Professional Experience} 
+
+% {\bf Alien Earths Team Member}, NASA’s Nexus for Exoplanet System Science \hfill {\em 2021 - Present} 
+
+{\bf Graduate Research \& Teaching Assistant}, University of Arizona \hfill {\em 2020 - Present} \\
+{Demographics of exoplanet systems and their dependence on host star properties; atmospheric evolution of small planets; the frequency of Earth-like habitable planets.}\vspace{-5pt}
+
+{\bf Physics and Astronomy REU}, University of Utah \hfill {\em Summer 2018} \\
+{Spectroscopic modeling of stellar populations to constrain cluster chemistry and dynamics.}\vspace{-5pt}
+
+{\bf Undergraduate Research \& Teaching Assistant}, University of Utah \hfill {\em 2017 - 2020} \\
+{Characterization of spectroscopic signatures in the interstellar medium associated with massive evolved stars; chemical enrichment via supernova remnant ejecta absorption features.}
+\end{rSection}
+\vspace{5pt}\hline
+\vspace{0pt}
+
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+% usually hand-modify a AASTeX output from ADS
+% (\textbf{Bergsten, G.} \ordinalnum{X} author)
+
+\begin{rSection}{Publications} \itemsep -2pt
+\begin{etaremune}[nosep]
+
+
+\item{Hardegree-Ullman, K. K., Apai, D., \textbf{Bergsten, G.} et al. 2022, submitted: \textit{Bioverse: A Comprehensive Assessment of the Capabilities of Extremely Large Telescopes to Probe Earth-like O2 Levels in Nearby Transiting Habitable Zone Exoplanets}}\vspace{-7pt}
+
+\item{Wanderley, F., Kunha, C., Souto, D. et al. (\textbf{Bergsten, G.} \ordinalnum{13} author) 2023, submitted: \textit{Stellar Characterization and Radius Inflation of Hyades M Dwarf Stars from the APOGEE Survey}}\vspace{-7pt}
+
+\item{\textbf{Bergsten, G.}, Pascucci, I., Mulders, G. D. et al. 2022, AJ, 164, 190: \textit{The Demographics of Kepler's Earths and super-Earths into the Habitable Zone}}\vspace{-7pt}
+
+\item{Fernandes, R. B., Mulders, G. D., Pascucci, I. et al. (\textbf{Bergsten, G.} \ordinalnum{4} author) 2022, AJ, 164, 78: \textit{pterodactyls: A Tool to Uniformly Search and Vet for Young Transiting Planets in TESS Primary Mission Photometry}}\vspace{-7pt}
+
+\item{Koskinen, T. T., Lavvas, P., Huang, C. et al. (\textbf{Bergsten, G.} \ordinalnum{4} author) 2022, ApJ, 929 52K: \textit{Mass loss by atmospheric escape from extremely close-in planets}}\vspace{-7pt}
+
+\item{Ashok, A., Zasowski, G., Seth, A., et al. (\textbf{Bergsten, G.} \ordinalnum{5} author) 2021, AJ, 161, 167. \textit{The APOGEE Library of Infrared SSP Templates (A-LIST): High-resolution Simple Stellar Population Spectral Models in the H Band}}
+
+\end{etaremune}
+\end{rSection}
+\vspace{5pt}\hline
+\vspace{0pt}
+
+%----------------------------------------------------------------------------------------
+%	TALKS & POSTERS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Selected Talks and Posters} \itemsep -2pt
+\begin{enumerate}
+
+% \item{Caltech/IPAC Seminar (Online)} \hfill {\em March 2023} \\
+% \textit{The Occurrence Rate of Earth Analogs with Kepler.}
+
+\item{AAS Meeting \#241 (Contributed Talk; In-Person)} \hfill {\em January 2023} \\
+\textit{Demographics of Kepler's Small Planets into the Habitable Zone.}
+
+\item{Jet Propulsion Laboratory Exoplanet Journal Club (Online)} \hfill {\em October 2022} \\
+\textit{The Demographics of Kepler's Earths and super-Earths into the Habitable Zone.}
+
+\item{SIG2 Monthly Telecon (Online)} \hfill {\em May 2022} \\
+\textit{The Demographics of Kepler's Earths and super-Earths into the Habitable Zone.}
+
+\item{Exoplanets IV (Poster; In-Person)} \hfill {\em May 2022} \\
+\textit{The Demographics of Kepler's Earths and super-Earths into the Habitable Zone.}
+
+\item{Origins Seminar Series (Seminar; In-Person)} \hfill {\em May 2022} \\
+\textit{The Long \& Short of It: the Population of Earths, from Short Periods to the Habitable Zone.}
+
+% \item{Building a Habitable World (Lecture; In-Person)} \hfill {\em February 2022} \\
+% \textit{Exoplanets (Detection and Demographics)}
+
+\item{PLATO Conference 2021 (Contributed Talk; Online)} \hfill {\em October 2021} \\
+\textit{Kepler’s Small Planets and their Dependence on Stellar Mass.}
+
+\item{TESS Science Conference 2 (Poster; Online)} \hfill {\em August 2021} \\
+\textit{Demographics of Small Kepler Planets and their Dependence on Stellar Mass}
+
+\item{Sagan Workshop (Poster; Online)} \hfill {\em July 2021} \\
+\textit{Stellar Mass Dependence in the Abundance of Small Kepler Planets.}
+
+\item{AAS Meeting \#233 (Poster; In-Person)} \hfill {\em January 2019} \\
+\textit{An APOGEE-2 Survey of the Stellar Populations in the M31 Group}
+
+\end{enumerate}
+\end{rSection}
+\vspace{5pt}\hline
+\vspace{0pt}
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Awards \& Achievements} \itemsep -2pt
+\begin{rSubsection}{Honors}{}{}{}
+{Best Graduate Student Talk Award (Lunar and Planetary Laboratory Conference)\hfill {\em 2021}}\\
+{BS in Physics and Astronomy (University of Utah), Magna cum Laude with Honors \hfill {\em 2020}}\\
+{Undergraduate Research Scholar \hfill {\em 2020}}\\
+{Crocker Science House Scholar \hfill {\em 2017}}
+\end{rSubsection}
+% \vspace{-1pt}
+\begin{rSubsection}{Scholarships}{}{}{}
+{Thomas J. Parmley Scholarship for Outstanding Students in Physics and Astronomy \hfill {\em 2019}}\\
+{Walter W. Wada Endowed Scholarship in Physics and Astronomy \hfill {\em 2018}}\\
+{Utah Student Success Scholarship \hfill {\em 2016, 2017}}\\
+{University of Utah President’s Scholarship \hfill {\em 2016}}
+\end{rSubsection}
+\end{rSection}
+\vspace{10pt}\hline
+\vspace{0pt}
+
+
+%----------------------------------------------------------------------------------------
+%	COMMUNITY SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Professional Activities} 
+\begin{rSubsection}{Science Committees and Affiliations}{}{}{}
+{Science Interest Group 2, \textit{Exoplanet Demographics} \hfill {\em 2022 - Present}}\\
+{NASA’s Nexus for Exoplanet System Science Alien Earths Team Member \hfill {\em 2021 - Present}}\\
+{Study Analysis Group 22, \textit{Investigating an Exoplanet Target Star Archive} \hfill {\em 2020 - 2021}}\\
+{American Astronomical Society \hfill {\em 2018 - Present}}\\
+{Society of Physics Students (Vice President), University of Utah Chapter \hfill {\em 2016 - 2020}}
+\end{rSubsection} 
+\begin{rSubsection}{Teaching Assistantships}{}{}{}
+{Building a Habitable World - Instructor: Dr. Mark Marley (LPL) \hfill {\em 2022}}\\
+{Introductory Mechanics - Instructor: Mr. Adam Beehler (Utah) \hfill {\em 2019}}\\
+{Foundations of Astronomy - Instructor: Dr. Gail Zasowski (Utah) \hfill {\em 2018, 2019}}
+\end{rSubsection}
+\end{rSection}
+\vspace{10pt}\hline
+\vspace{0pt}
+
+
+%----------------------------------------------------------------------------------------
+%	MENTORSHIP SECTION
+%----------------------------------------------------------------------------------------
+% \begin{rSection}{Mentorship} 
+% {\bf Colin Boecker-Grieme}, Paradise Valley High School \hfill {\em 2022 - Present} \\
+% {Project: \textit{Habitability and Terrestrial Analogs of Europa's Subsurface Ocean}}
+
+% {\bf Abhinav Vatsa}, University of Arizona (Undergraduate) \hfill {\em 2022} \\
+% {Project: \textit{Searching for Young Habitable Planets around Low-Mass M Dwarfs with TESS}}
+
+% {\bf Abhinav Vishnuvajhala}, BASIS Phoenix High School \hfill {\em 2022} \\
+% {Project: \textit{Indicators of Uninhabitable Worlds with Machine Learning}}
+% \end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	DEIA SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Leadership in Inclusion, Diversity, Equity, \& Accessibility} 
+\begin{rSubsection}{Department Leadership}{}{}{}
+{Journal Club Coordinator, Lunar and Planetary Laboratory \hfill {\em 2022 - Present}}\\
+{DEI Committee, Lunar and Planetary Laboratory \hfill {\em 2022 - Present}}\\
+{Department Life Committee, Lunar and Planetary Laboratory \hfill {\em 2022 - Present}}\\
+{Graduate Student Colloquium Organizer, Lunar and Planetary Laboratory \hfill {\em 2022 - Present}}\\
+{Undergraduate Women in Physics \& Astronomy, University of Utah \hfill {\em 2018 - 2020}}
+\end{rSubsection}
+\begin{rSubsection}{University Leadership}{}{}{}
+{Inclusive Leadership Institute, University of Arizona \hfill {\em 2022 - Present}}\\
+{Culturally Inclusive Planetary Engagement Workshop, Planetary ReaCH Program \hfill {\em 2022}}
+\end{rSubsection}
+\begin{rSubsection}{Outreach}{}{}{}
+{The Art of Planetary Science Volunteer \hfill {\em 2020 - Present}}\\
+{Tucson Festival of Books - Science City Volunteer \hfill {\em 2023}}\\
+{University of Utah Observatory Public Viewing Nights Volunteer \hfill {\em 2017 - 2020}}\\
+{Outreach Coordinator for Salt Lake City K-12 Public Schools \hfill {\em 2016 - 2020}}
+\end{rSubsection}
+\end{rSection}
+\vspace{10pt}\hline
+\vspace{0pt}
+
+\begin{rSection}{Mentorship} 
+{\bf Colin Boecker-Grieme}, Paradise Valley High School \hfill {\em 2022 - 2023} \\
+{Project: \textit{Habitability and Terrestrial Analogs of Europa's Subsurface Ocean}}\\
+{\bf Abhinav Vatsa}, University of Arizona (Undergraduate) \hfill {\em 2022} \\
+{Project: \textit{Searching for Young Habitable Planets around Low-Mass M Dwarfs with TESS}}\\
+{\bf Abhinav Vishnuvajhala}, BASIS Phoenix High School \hfill {\em 2022} \\
+{Project: \textit{Indicators of Uninhabitable Worlds with Machine Learning}}
+\end{rSection}
+
+
+
+\end{document}
